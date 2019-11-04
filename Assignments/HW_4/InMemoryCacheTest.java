@@ -47,8 +47,8 @@ public class InMemoryCacheTest {
         // maxItems = 10
         InMemoryCache<String, String> cache = new InMemoryCache<String, String>(1, 1, 10);
  
-        cache.put("eBay", "eBay");
-        cache.put("Paypal", "Paypal");
+        cache.put("sjsu", "California");
+        cache.put("ucla", "California");
         // Adding 3 seconds sleep.. Both above objects will be removed from
         // Cache because of timeToLiveInSeconds value
         Thread.sleep(3000);
